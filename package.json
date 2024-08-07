@@ -1,0 +1,43 @@
+{
+  "name": "foss-license",
+  "version": "1.0.0",
+  "description": "foss-license is a tool designed to fetch, cache, and generate comprehensive HTML and CSV reports of Free and Open Source Software (FOSS) licenses for the dependencies in your project.",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "bin": {
+    "generate-licenses": "./src/index.js",
+    "gfl": "./src/index.js"
+  },
+  "devDependencies": {
+    "@octokit/rest": "^18.5.3",
+    "license-checker-rseidelsohn": "^4.3.0",
+    "node-fetch": "^2.6.1",
+    "yargs": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongwd/foss-license.git"
+  },
+  "keywords": [
+    "foss-license",
+    "FOSS",
+    "licenses",
+    "fetch",
+    "cache",
+    "HTML",
+    "report",
+    "CSV",
+    "dependency",
+    "management",
+    "license",
+    "mechanism"
+  ],
+  "author": "Phuong To <phuongwd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phuongwd/foss-license/issues"
+  },
+  "homepage": "https://github.com/phuongwd/foss-license#readme"
+}
